@@ -4,6 +4,11 @@
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote  name="candy"
+           revision="refs/heads/c7.1.1"
+           fetch=".."
+           review="gerrit.bbqdroid.org" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
@@ -34,14 +39,27 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- Tesla Repo's -->
-  <project path="manifest" name="manifest" remote="tesla" />
-  <project path="build" name="build" groups="pdk,tradefed" remote="tesla" >
+  <!-- Candy -->
+  <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="candy" revision="c7.1.1" />
+  <project path="build" name="CandyRoms/build" remote="candy" revision="c7.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="candy" name="CandyRoms/candy" remote="candy" revision="c7.1.1" />
+  <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" revision="c7.1.1" />
+  <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" revision="c7.1.1" />
+  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1.1" />
+  <project path="system/core" name="CandyRoms/system_core" remote="candy" revision="c7.1.1" />
+  <project path="system/extras" name="CandyRoms/system_extras" remote="candy" revision="c7.1.1" />
+  <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" revision="c7.1.1" />
+  <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" revision="c7.1.1" />
+
+  <!-- Tesla -->
   <project path="art" name="art" groups="pdk" remote="tesla"  />
   <project path="bionic" name="bionic" groups="pdk" remote="tesla" />
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="tesla" />
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="tesla" />
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="device/qcom/common" name="device_qcom_common" remote="tesla" />
@@ -51,7 +69,6 @@
   <project path="external/brctl" name="external_brctl" remote="tesla" />
   <project path="external/connectivity" name="external_connectivity" remote="tesla" />
   <project path="external/doclava" name="external_doclava" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
-  <project path="external/DUtils" name="external_DUtils" remote="tesla" />  
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="tesla" />
   <project path="external/ebtables" name="external_ebtables" remote="tesla" />
   <project path="external/exfat" name="external_exfat" remote="tesla" />
@@ -93,8 +110,6 @@
   <project path="external/zip" name="external_zip" remote="tesla" />
   <project path="external/zlib" name="external_zlib" groups="pdk" remote="tesla" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="tesla" />
-  <project path="frameworks/base" name="frameworks_base" remote="tesla" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tesla" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="tesla" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
@@ -105,11 +120,9 @@
   <project path="libcore" name="libcore" groups="pdk" remote="tesla" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="tesla" revision="n7.0" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="tesla" />
-  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="tesla" />
   <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="tesla" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs"  remote="tesla" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="tesla" />
@@ -117,8 +130,6 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="tesla" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="validus" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="tesla" />  
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="tesla" />
-  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="tesla" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="tesla" />
   <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="tesla" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="tesla" />
@@ -126,19 +137,15 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="tesla" />
-  <project path="system/core" name="system_core" groups="pdk" remote="tesla" />
-  <project path="system/extras" name="system_extras" groups="pdk" remote="tesla" />
   <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="tesla" />
   <project path="system/media" name="system_media" groups="pdk" remote="tesla" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="tesla" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="tesla" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="tesla" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" />
   <project path="vendor/qcom/opensource/bluetooth" name="packages_apps_BluetoothExt" remote="tesla" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="tesla" />
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="tesla" />
   <project path="vendor/qcom/opensource/time-services" name="vendor_qcom_opensource_time-services" remote="tesla" />
-  <project path="vendor/tesla" name="vendor_tesla" remote="tesla" />
 
   <!-- LockClock -->
   <project path="external/google" name="external_google" remote="tesla" />
