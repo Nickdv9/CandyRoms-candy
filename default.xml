@@ -39,13 +39,13 @@
   <remote  name="ts"
            fetch="https://github.com/TeamSubstratum"
            revision="n" />
-  
+
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
 
   <remote  name="mario"
            fetch="https://github.com/ThankYouMario" />
-    
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -91,7 +91,7 @@
   <project path="external/ffmpeg" name="external_ffmpeg" remote="tesla" />
   <project path="external/fuse" name="external_fuse" remote="tesla" />
   <project path="external/fsck_msdos" name="external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
-  <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="tesla" />  
+  <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="external/ipsec-tools" name="external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="external/libncurses" name="external_libncurses" remote="tesla" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="tesla" />
@@ -144,7 +144,7 @@
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="tesla" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="tesla" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="validus" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="tesla" />  
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="tesla" />
   <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="tesla" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="tesla" />
@@ -164,14 +164,14 @@
 
   <!-- LockClock -->
   <project path="external/google" name="external_google" remote="tesla" />
-  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tesla" />  
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tesla" />
 
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tesla" revision="n7.1" />
   <project path="OTA_config" name="Tesla-M-Devices/OTA_config" remote="github" revision="master" >
       <copyfile src="ota_conf" dest="ota_conf" />
   </project>
-  
+
   <!-- OMS -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
@@ -553,7 +553,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />  
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
@@ -592,11 +592,12 @@
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gdb/linux-x86" name="platform/prebuilts/gdb/linux-x86" groups="linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,tradefed" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
@@ -650,8 +651,13 @@
   <project path="packages/apps/StorageManager" name="packages_apps_StorageManager" remote="tesla" />
   <project path="external/apache-http" name="external_apache-http" groups="pdk" remote="tesla" />
 
+  <!-- UberTC -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" clone-depth="1" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" clone-depth="1" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" clone-depth="1" remote="bb" />
+
   <!-- Kernel Adiutor -->
   <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="tesla" />
-  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="tesla" />  
+  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="tesla" />
 
 </manifest>
