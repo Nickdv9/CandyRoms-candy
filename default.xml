@@ -69,7 +69,7 @@
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="candy" />
+  <project path="packages/apps/TeslaCoil" name="CandyRoms/packages_apps_TeslaCoil" remote="candy" />
   <project path="system/core" name="CandyRoms/system_core" remote="candy" revision="c7.1.1" />
   <project path="system/extras" name="CandyRoms/system_extras" remote="candy" revision="c7.1.1" />
   <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" revision="c7.1.1" />
