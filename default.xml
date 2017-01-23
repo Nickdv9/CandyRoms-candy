@@ -69,6 +69,7 @@
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="candy" />
   <project path="system/core" name="CandyRoms/system_core" remote="candy" revision="c7.1.1" />
   <project path="system/extras" name="CandyRoms/system_extras" remote="candy" revision="c7.1.1" />
   <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" revision="c7.1.1" />
@@ -145,7 +146,6 @@
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="validus" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="tesla" />
-  <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="tesla" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="tesla" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
@@ -650,11 +650,6 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="packages_apps_SafetyRegulatoryInfo" remote="tesla" />
   <project path="packages/apps/StorageManager" name="packages_apps_StorageManager" remote="tesla" />
   <project path="external/apache-http" name="external_apache-http" groups="pdk" remote="tesla" />
-
-  <!-- UberTC -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" clone-depth="1" remote="bb" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" clone-depth="1" remote="bb" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" clone-depth="1" remote="bb" />
 
   <!-- Kernel Adiutor -->
   <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="tesla" />
