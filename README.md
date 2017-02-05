@@ -24,13 +24,12 @@ Then sync up with this command:
 
 To start your build run this command:
 
-. build/envsetup.sh && breakfast <device> && make -j8 bacon
+	. build/envsetup.sh && breakfast <device> && make -j8 candy
 
-
+Gerrit 
+------
 We now have a gerrit. Please use it if you want your code to be reviewed.
 
-Gerrit URL : https://gerrit.bbqdroid.org
+URL : https://gerrit.bbqdroid.org
 
-A great guide to using gerrit
-
-http://forum.xda-developers.com/showthread.php?t=2628545
+A great guide to using gerrit: http://forum.xda-developers.com/showthread.php?t=2628545
