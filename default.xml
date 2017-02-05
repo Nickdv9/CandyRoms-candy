@@ -660,8 +660,4 @@
   <project path="packages/apps/StorageManager" name="packages_apps_StorageManager" remote="tesla" />
   <project path="external/apache-http" name="external_apache-http" groups="pdk" remote="tesla" />
 
-  <!-- Kernel Adiutor -->
-  <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="tesla" />
-  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="tesla" />
-
 </manifest>
