@@ -103,7 +103,7 @@
   <project path="packages/apps/CandyOTA" name="CandyRoms/packages_apps_CandyOTA" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/OmniSwitch" name="CandyRoms/packages_apps_OmniSwitch" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1.1" />
   <project path="packages/inputmethods/LatinIME" name="CandyRoms/packages_inputmethods_LatinIME" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1.1" />
