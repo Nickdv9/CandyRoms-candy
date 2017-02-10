@@ -55,6 +55,7 @@
            sync-j="4" />
 
   <!-- Candy -->
+  <project path="bionic" name="CandyRoms/bionic" groups="pdk" remote="candy" revision="c7.1.1" />
   <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="candy" revision="c7.1.1" />
   <project path="build" name="CandyRoms/build" remote="candy" revision="c7.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -63,10 +64,13 @@
   <project path="device/qcom/common" name="CandyRoms/device_qcom_common" remote="candy" revision="c7.1.1" />
   <project path="device/qcom/sepolicy" name="CandyRoms/device_qcom_sepolicy" remote="candy" revision="c7.1.1" />
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" revision="c7.1.1" />
+  <project path="frameworks/av" name="CandyRoms/frameworks_av" groups="pdk" remote="candy" revision="c7.1.1" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" revision="c7.1.1" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" revision="c7.1.1" />
+  <project path="libcore" name="CandyRoms/libcore" groups="pdk" remote="candy" revision="c7.1.1" />
 
   <!-- Candy HardWare QCOM -->
+  <project path="hardware/libhardware" name="CandyRoms/hardware_libhardware" remote="candy" revision="c7.1.1" />
   <project path="hardware/qcom/audio/default" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7.1.1" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8916" />
@@ -123,7 +127,6 @@
   <project path="prebuilts/clang/host/linux-x86/3.9.1" name="uberroms/clang_linux-x86_3.9.1" remote="bb" revision="master" />
 
   <!-- Tesla -->
-  <project path="bionic" name="bionic" groups="pdk" remote="tesla" />
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="tesla" />
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="external/bash" name="external_bash" remote="tesla" />
@@ -171,15 +174,12 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="tesla" />
   <project path="external/zip" name="external_zip" remote="tesla" />
   <project path="external/zlib" name="external_zlib" groups="pdk" remote="tesla" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="tesla" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="tesla" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="tesla" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="tesla" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="tesla" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="tesla" />
-  <project path="libcore" name="libcore" groups="pdk" remote="tesla" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="tesla" revision="n7.0" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-fs" remote="tesla" />
