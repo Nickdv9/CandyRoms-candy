@@ -68,6 +68,26 @@
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" revision="c7.1.1" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" revision="c7.1.1" />
   <project path="libcore" name="CandyRoms/libcore" groups="pdk" remote="candy" revision="c7.1.1" />
+  <!-- OTA -->
+  <project path="OTA_config" name="CandyRoms/OTA_config" remote="candy" revision="master" >
+      <copyfile src="ota_conf" dest="ota_conf" />
+  </project>
+  <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/CandyCane" name="CandyRoms/packages_apps_CandyCane" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/CandyOTA" name="CandyRoms/packages_apps_CandyOTA" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/Launcher3" name="CandyRoms/packages_apps_Launcher3" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/OmniSwitch" name="CandyRoms/packages_apps_OmniSwitch" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1.1" />
+  <project path="packages/inputmethods/LatinIME" name="CandyRoms/packages_inputmethods_LatinIME" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1.1" />
+  <project path="system/core" name="CandyRoms/system_core" remote="candy" revision="c7.1.1" />
+  <project path="system/extras" name="CandyRoms/system_extras" remote="candy" revision="c7.1.1" />
+  <project path="system/extras/su" name="CandyRoms/system_extras_su" remote="candy" revision="c7.1.1" />
+  <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" revision="c7.1.1" />
+  <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" revision="c7.1.1" />
 
   <!-- Candy HardWare QCOM -->
   <project path="hardware/libhardware" name="CandyRoms/hardware_libhardware" remote="candy" revision="c7.1.1" />
@@ -99,25 +119,6 @@
   <project path="hardware/qcom/media-caf/msm8974" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8996" />
-  <!-- OTA -->
-  <project path="OTA_config" name="CandyRoms/OTA_config" remote="candy" revision="master" >
-      <copyfile src="ota_conf" dest="ota_conf" />
-  </project>
-  <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/CandyCane" name="CandyRoms/packages_apps_CandyCane" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/CandyOTA" name="CandyRoms/packages_apps_CandyOTA" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/OmniSwitch" name="CandyRoms/packages_apps_OmniSwitch" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1.1" />
-  <project path="packages/inputmethods/LatinIME" name="CandyRoms/packages_inputmethods_LatinIME" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1.1" />
-  <project path="system/core" name="CandyRoms/system_core" remote="candy" revision="c7.1.1" />
-  <project path="system/extras" name="CandyRoms/system_extras" remote="candy" revision="c7.1.1" />
-  <project path="system/extras/su" name="CandyRoms/system_extras_su" remote="candy" revision="c7.1.1" />
-  <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" revision="c7.1.1" />
-  <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" revision="c7.1.1" />
 
   <!--  UBER  -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" groups="pdk,linux,arm" remote="bb" revision="master" clone-depth="1"/>
@@ -563,7 +564,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" remote="aosp" />
