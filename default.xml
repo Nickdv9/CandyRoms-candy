@@ -37,7 +37,7 @@
            revision="cm-14.1" />
 
   <remote  name="ts"
-           fetch="https://github.com/TeamSubstratum"
+           fetch="https://github.com/substratum"
            revision="n" />
 
   <remote  name="bb"
@@ -82,6 +82,7 @@
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1.1" />
   <project path="packages/inputmethods/LatinIME" name="CandyRoms/packages_inputmethods_LatinIME" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/Viper4Android" name="CandyRoms/packages_apps_Viper4Android" remote="candy" revision="c7.1.1" />
   <project path="system/core" name="CandyRoms/system_core" remote="candy" revision="c7.1.1" />
   <project path="system/extras" name="CandyRoms/system_extras" remote="candy" revision="c7.1.1" />
   <project path="system/extras/su" name="CandyRoms/system_extras_su" remote="candy" revision="c7.1.1" />
@@ -211,7 +212,7 @@
   <project path="external/google" name="external_google" remote="tesla" />
 
   <!-- OMS -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n" />
 
   <!-- Telephony -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tesla" />
