@@ -86,6 +86,7 @@
   <project path="system/extras" name="CandyRoms/system_extras" remote="candy" revision="c7.1.1" />
   <project path="system/extras/su" name="CandyRoms/system_extras_su" remote="candy" revision="c7.1.1" />
   <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" revision="c7.1.1" />
+  <project path="system/vold" name="CandyRoms/system_vold" remote="candy" revision="c7.1.1" />
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" revision="c7.1.1" />
 
   <!-- Candy HardWare QCOM -->
@@ -201,7 +202,6 @@
   <project path="system/media" name="system_media" groups="pdk" remote="tesla" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="tesla" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="tesla" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" />
   <project path="vendor/qcom/opensource/bluetooth" name="packages_apps_BluetoothExt" remote="tesla" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="tesla" />
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="tesla" />
