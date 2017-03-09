@@ -77,6 +77,7 @@
   <project path="packages/apps/CandyOTA" name="CandyRoms/packages_apps_CandyOTA" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/Messaging" name="CandyRoms/packages_apps_Messaging" groups="pdk-fs" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/OmniSwitch" name="CandyRoms/packages_apps_OmniSwitch" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1.1" />
@@ -190,7 +191,6 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="tesla" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs"  remote="tesla" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="tesla" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="tesla" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="tesla" />
