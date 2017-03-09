@@ -76,6 +76,7 @@
   <project path="packages/apps/CandyCane" name="CandyRoms/packages_apps_CandyCane" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/CandyOTA" name="CandyRoms/packages_apps_CandyOTA" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/Interfacer" name="CandyRoms/packages_apps_Interfacer" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Messaging" name="CandyRoms/packages_apps_Messaging" groups="pdk-fs" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" revision="c7.1.1" />
