@@ -53,6 +53,7 @@
   <!-- Candy -->
   <project path="bionic" name="CandyRoms/bionic" groups="pdk" remote="candy" revision="c7.1.1" />
   <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="candy" revision="c7.1.1" />
+  <project path="bootable/recovery-twrp" name="CandyRoms/bootable_recovery-twrp" remote="candy" revision="c7.1.1" />
   <project path="build" name="CandyRoms/build" remote="candy" revision="c7.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -132,6 +133,7 @@
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="external/bash" name="external_bash" remote="tesla" />
   <project path="external/brctl" name="external_brctl" remote="tesla" />
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-7.1" />
   <project path="external/connectivity" name="external_connectivity" remote="tesla" />
   <project path="external/doclava" name="external_doclava" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="tesla" />
