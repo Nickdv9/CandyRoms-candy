@@ -61,6 +61,7 @@
   <project path="device/qcom/common" name="CandyRoms/device_qcom_common" remote="candy" revision="c7.1.1" />
   <project path="device/qcom/sepolicy" name="CandyRoms/device_qcom_sepolicy" remote="candy" revision="c7.1.1" />
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" revision="c7.1.1" />
+  <project path="external/busybox" name="CandyRoms/external_busybox" remote="candy" revision="c7.1.1" />
   <project path="frameworks/av" name="CandyRoms/frameworks_av" groups="pdk" remote="candy" revision="c7.1.1" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" revision="c7.1.1" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" revision="c7.1.1" />
@@ -133,7 +134,6 @@
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="external/bash" name="external_bash" remote="tesla" />
   <project path="external/brctl" name="external_brctl" remote="tesla" />
-  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-7.1" />
   <project path="external/connectivity" name="external_connectivity" remote="tesla" />
   <project path="external/doclava" name="external_doclava" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="tesla" />
