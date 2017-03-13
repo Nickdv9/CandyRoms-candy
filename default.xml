@@ -231,7 +231,7 @@
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" revision="cm-14.1" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" revision="cm-14.1" />
-  <project path="external/boringssl" name="LineageOS/external_boringssl" groups="pdk" remote="los" revision="cm-14.1" />
+  <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" remote="los" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="los" revision="cm-14.1" />
 
   <!-- Tesla -->
