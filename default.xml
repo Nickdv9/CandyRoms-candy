@@ -78,6 +78,7 @@
   <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Messaging" name="CandyRoms/packages_apps_Messaging" groups="pdk-fs" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" revision="c7.1.1" />
+  <project path="packages/services/OmniJaws" name="CandyRoms/packages_services_OmniJaws" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/OmniSwitch" name="CandyRoms/packages_apps_OmniSwitch" remote="candy" revision="c7.1.1" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1.1" />
   <project path="packages/inputmethods/LatinIME" name="CandyRoms/packages_inputmethods_LatinIME" remote="candy" revision="c7.1.1" />
