@@ -53,7 +53,6 @@
   <!-- Candy -->
   <project path="bionic" name="CandyRoms/bionic" groups="pdk" remote="candy" revision="c7.1.1" />
   <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="candy" revision="c7.1.1" />
-  <project path="bootable/recovery-twrp" name="CandyRoms/bootable_recovery-twrp" remote="candy" revision="c7.1.1" />
   <project path="build" name="CandyRoms/build" remote="candy" revision="c7.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -61,7 +60,6 @@
   <project path="device/qcom/common" name="CandyRoms/device_qcom_common" remote="candy" revision="c7.1.1" />
   <project path="device/qcom/sepolicy" name="CandyRoms/device_qcom_sepolicy" remote="candy" revision="c7.1.1" />
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" revision="c7.1.1" />
-  <project path="external/busybox" name="CandyRoms/external_busybox" remote="candy" revision="c7.1.1" />
   <project path="frameworks/av" name="CandyRoms/frameworks_av" groups="pdk" remote="candy" revision="c7.1.1" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" revision="c7.1.1" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" revision="c7.1.1" />
