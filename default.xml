@@ -15,11 +15,11 @@
            review="gerrit.bbqdroid.org" />
 
   <remote  name="tesla"
-           fetch="https://github.com/TeslaRom-N/"
+           fetch="https://github.com/TeslaRom-N"
            revision="n7.1.1" />
 
   <remote  name="validus"
-           fetch="https://github.com/GZR-ValidusOS/"
+           fetch="https://github.com/GZR-ValidusOS"
            revision="n7.1.1" />
 
   <remote  name="los"
@@ -37,7 +37,7 @@
            revision="n" />
 
   <remote  name="tm"
-           fetch="https://github.com/themuppets"
+           fetch="https://github.com/TheMuppets"
            revision="cm-14.1" />
 
   <remote  name="bb"
@@ -55,83 +55,48 @@
            sync-j="4" />
 
   <!-- Candy -->
-  <project path="bionic" name="CandyRoms/bionic" groups="pdk" remote="candy" revision="c7.1.1" />
-  <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="candy" revision="c7.1.1" />
-  <project path="build" name="CandyRoms/build" remote="candy" revision="c7.1.1" >
+  <project path="bionic" name="CandyRoms/bionic" groups="pdk" remote="candy" />
+  <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="candy" />
+  <project path="build" name="CandyRoms/build" remote="candy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="candy" name="CandyRoms/candy" remote="candy" revision="c7.1.1" />
-  <project path="device/qcom/common" name="CandyRoms/device_qcom_common" remote="candy" revision="c7.1.1" />
-  <project path="device/qcom/sepolicy" name="CandyRoms/device_qcom_sepolicy" remote="candy" revision="c7.1.1" />
-  <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" revision="c7.1.1" />
-  <project path="frameworks/av" name="CandyRoms/frameworks_av" groups="pdk" remote="candy" revision="c7.1.1" />
-  <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" revision="c7.1.1" />
-  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" revision="c7.1.1" />
-  <project path="frameworks/opt/net/wifi" name="CandyRoms/frameworks_opt_net_wifi" remote="candy" revision="c7.1.1" />
-  <project path="libcore" name="CandyRoms/libcore" groups="pdk" remote="candy" revision="c7.1.1" />
-  <!-- OTA -->
+  <project path="candy" name="CandyRoms/candy" remote="candy" />
+  <project path="device/qcom/common" name="CandyRoms/device_qcom_common" remote="candy" />
+  <project path="device/qcom/sepolicy" name="CandyRoms/device_qcom_sepolicy" remote="candy" />
+  <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" />
+  <project path="frameworks/av" name="CandyRoms/frameworks_av" groups="pdk" remote="candy" />
+  <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" />
+  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" />
+  <project path="frameworks/opt/net/wifi" name="CandyRoms/frameworks_opt_net_wifi" remote="candy" />
+  <project path="libcore" name="CandyRoms/libcore" groups="pdk" remote="candy" />
   <project path="OTA_config" name="CandyRoms/OTA_config" remote="candy" revision="master" >
-      <copyfile src="ota_conf" dest="ota_conf" />
+    <copyfile src="ota_conf" dest="ota_conf" />
   </project>
-  <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/CandyCane" name="CandyRoms/packages_apps_CandyCane" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/CandyOTA" name="CandyRoms/packages_apps_CandyOTA" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/ThemeInterfacer" name="CandyRoms/packages_apps_Interfacer" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/Messaging" name="CandyRoms/packages_apps_Messaging" groups="pdk-fs" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" revision="c7.1.1" />
-  <project path="packages/services/OmniJaws" name="CandyRoms/packages_services_OmniJaws" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/OmniStyle" name="CandyRoms/packages_apps_OmniStyle" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/OmniSwitch" name="CandyRoms/packages_apps_OmniSwitch" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1.1" />
-  <project path="packages/inputmethods/LatinIME" name="CandyRoms/packages_inputmethods_LatinIME" remote="candy" revision="c7.1.1" />
-  <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1.1" />
-  <project path="system/core" name="CandyRoms/system_core" remote="candy" revision="c7.1.1" />
-  <project path="system/extras" name="CandyRoms/system_extras" remote="candy" revision="c7.1.1" />
-  <project path="system/extras/su" name="CandyRoms/system_extras_su" remote="candy" revision="c7.1.1" />
-  <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" revision="c7.1.1" />
-  <project path="system/vold" name="CandyRoms/system_vold" remote="candy" revision="c7.1.1" />
-  <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" revision="c7.1.1" />
+  <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="candy" />
+  <project path="packages/apps/CandyCane" name="CandyRoms/packages_apps_CandyCane" remote="candy" />
+  <project path="packages/apps/CandyOTA" name="CandyRoms/packages_apps_CandyOTA" remote="candy" />
+  <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" />
+  <project path="packages/apps/ThemeInterfacer" name="CandyRoms/packages_apps_Interfacer" remote="candy" />
+  <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="candy" />
+  <project path="packages/apps/Messaging" name="CandyRoms/packages_apps_Messaging" groups="pdk-fs" remote="candy" />
+  <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" />
+  <project path="packages/services/OmniJaws" name="CandyRoms/packages_services_OmniJaws" remote="candy" />
+  <project path="packages/apps/OmniStyle" name="CandyRoms/packages_apps_OmniStyle" remote="candy" />
+  <project path="packages/apps/OmniSwitch" name="CandyRoms/packages_apps_OmniSwitch" remote="candy" />
+  <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" />
+  <project path="packages/inputmethods/LatinIME" name="CandyRoms/packages_inputmethods_LatinIME" remote="candy" />
+  <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" />
+  <project path="system/core" name="CandyRoms/system_core" remote="candy" />
+  <project path="system/extras" name="CandyRoms/system_extras" remote="candy" />
+  <project path="system/extras/su" name="CandyRoms/system_extras_su" remote="candy" />
+  <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" />
+  <project path="system/vold" name="CandyRoms/system_vold" remote="candy" />
+  <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" />
 
-  <!-- Candy HardWare QCOM -->
-  <project path="hardware/libhardware" name="CandyRoms/hardware_libhardware" remote="candy" revision="c7.1.1" />
-  <project path="hardware/qcom/audio/default" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7.1.1" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8937" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8996" />
-  <project path="hardware/qcom/camera" name="CandyRoms/hardware_qcom_camera" groups="qcom" remote="candy" revision="c7.1.1" />
-  <project path="hardware/qcom/display" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7.1.1" />
-  <project path="hardware/qcom/display-caf/apq8084" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8937" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8937" />
-  <project path="hardware/qcom/display-caf/msm8952" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8996" />
-  <project path="hardware/qcom/media" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7.1.1" />
-  <project path="hardware/qcom/media-caf/apq8084" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8937" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8937" />
-  <project path="hardware/qcom/media-caf/msm8952" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8996" />
-
-  <!-- Citrus -->
-  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
-  <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" />
-  
   <!-- Tesla -->
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="tesla" />
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
+  <project path="external/apache-http" name="external_apache-http" groups="pdk" remote="tesla" />
   <project path="external/bash" name="external_bash" remote="tesla" />
   <project path="external/brctl" name="external_brctl" remote="tesla" />
   <project path="external/connectivity" name="external_connectivity" remote="tesla" />
@@ -152,10 +117,11 @@
   <project path="external/libnfnetlink" name="external_libnfnetlink" remote="tesla" />
   <project path="external/libselinux" name="external_libselinux" groups="pdk" remote="tesla" />
   <project path="external/libtar" name="external_libtar" remote="tesla" />
+  <project path="external/google" name="external_google" remote="tesla" />
   <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk-fs" remote="tesla" />
   <project path="external/gson" name="external_gson" remote="tesla" />
+  <project path="external/jemalloc" name="external_jemalloc" groups="pdk" remote="tesla" />
   <project path="external/json-c" name="external_json-c" remote="tesla" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="tesla" />
   <project path="external/mm-dash" name="external_mm-dash" remote="tesla" />
   <project path="external/nano" name="external_nano" remote="tesla" />
@@ -168,7 +134,6 @@
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="tesla" />
   <project path="external/stlport" name="external_stlport" remote="tesla" />
   <project path="external/sony/boringssl-compat" name="external_sony_boringssl-compat" remote="tesla" />
-  <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="slim" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="tesla" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="tesla" />
   <project path="external/unzip" name="external_unzip" remote="tesla" />
@@ -186,10 +151,12 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="tesla" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk" remote="tesla" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="tesla" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="tesla" />
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="slim" />
+  <project path="packages/apps/SafetyRegulatoryInfo" name="packages_apps_SafetyRegulatoryInfo" remote="tesla" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="tesla" />
+  <project path="packages/apps/StorageManager" name="packages_apps_StorageManager" remote="tesla" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
@@ -203,9 +170,6 @@
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="tesla" />
   <project path="vendor/qcom/opensource/time-services" name="vendor_qcom_opensource_time-services" remote="tesla" />
 
-  <!-- LockClock -->
-  <project path="external/google" name="external_google" remote="tesla" />
-
   <!-- Telephony -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tesla" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="tesla" />
@@ -217,29 +181,62 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="tesla" />
 
-  <!-- Ril -->
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="los" />
-  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" remote="los" revision="cm-14.1-caf" />
-
-  <!-- Wlan -->
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="tesla" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="tesla" revision="n7.1-caf" />
-
-  <!-- Lineage -->
-  <project path="art" name="LineageOS/android_art" groups="pdk" remote="los" revision="cm-14.1" />
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" revision="cm-14.1" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" revision="cm-14.1" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" revision="cm-14.1" />
-  <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" remote="los" revision="cm-14.1" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="los" revision="cm-14.1" />
-
-  <!-- Tesla -->
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="CandyRoms/hardware_libhardware" remote="candy" />
+  <project path="hardware/qcom/audio/default" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" remote="candy" revision="c7-caf-8996" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="tesla" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="tesla" revision="n7.1.1-caf" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk" remote="tesla" />
+  <project path="hardware/qcom/camera" name="CandyRoms/hardware_qcom_camera" groups="qcom" remote="candy" />
+  <project path="hardware/qcom/display" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" />
+  <project path="hardware/qcom/display-caf/apq8084" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" revision="c7-caf-8996" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" groups="pdk" remote="tesla" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="tesla" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="tesla" />
-  <project path="hardware/qcom/fm" name="hardware_qcom_fm" groups="pdk" remote="tesla" />
+  <project path="hardware/qcom/media" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" />
+  <project path="hardware/qcom/media-caf/apq8084" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="CandyRoms/hardware_qcom_media" groups="qcom" remote="candy" revision="c7-caf-8996" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="tesla" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="tesla" revision="n7.1-caf" />
+  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="los" />
+  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" remote="los" revision="cm-14.1-caf" />
+
+  <!-- LineageOS -->
+  <project path="art" name="LineageOS/android_art" groups="pdk" remote="los" revision="cm-14.1" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" />
+  <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" remote="los" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
+
+  <!-- Slim -->
+  <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="slim" />
+  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="slim" />
+
+  <!-- Citrus -->
+  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
+  <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" />
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -328,6 +325,8 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" remote="aosp" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" remote="aosp" />
+  <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
+  <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" remote="aosp" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -363,6 +362,7 @@
   <project path="external/libdaemon" name="platform/external/libdaemon" remote="aosp" />
   <project path="external/libevent" name="platform/external/libevent" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/libgdx" name="platform/external/libgdx" groups="pdk" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" remote="aosp" />
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" />
@@ -374,6 +374,7 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" remote="aosp" />
@@ -461,6 +462,7 @@
   <project path="external/tpm2" name="platform/external/tpm2" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
+  <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" remote="aosp" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
@@ -532,11 +534,8 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" remote="aosp" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk" remote="tesla" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="aosp" />
@@ -627,17 +626,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
-
-  <!-- Test -->
-  <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
-  <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
-  <project path="external/libgdx" name="platform/external/libgdx" groups="pdk" remote="aosp" />
-  <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" remote="aosp" />
-
-  <!-- CM -->
-  <project path="external/jemalloc" name="external_jemalloc" groups="pdk" remote="tesla" />
-  <project path="packages/apps/SafetyRegulatoryInfo" name="packages_apps_SafetyRegulatoryInfo" remote="tesla" />
-  <project path="packages/apps/StorageManager" name="packages_apps_StorageManager" remote="tesla" />
-  <project path="external/apache-http" name="external_apache-http" groups="pdk" remote="tesla" />
 
 </manifest>
