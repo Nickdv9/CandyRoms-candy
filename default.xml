@@ -90,6 +90,7 @@
   <project path="system/core" name="CandyRoms/system_core" remote="candy" />
   <project path="system/extras" name="CandyRoms/system_extras" remote="candy" />
   <project path="system/extras/su" name="CandyRoms/system_extras_su" remote="candy" />
+  <project path="system/keymaster" name="CandyRoms/system_keymaster" groups="pdk" remote="candy" />
   <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" />
   <project path="system/vold" name="CandyRoms/system_vold" remote="candy" />
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" />
@@ -162,7 +163,6 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="tesla" />
-  <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="tesla" />
   <project path="system/media" name="system_media" groups="pdk" remote="tesla" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="tesla" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="tesla" />
