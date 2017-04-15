@@ -5,16 +5,16 @@ Welcome to CandyRoms
 Getting Started
 ---------------
 
-To get started with Candy7.1.1, you'll need to get familiar with
+To get started with Candy7.1.2, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 Please take note that we have two main line branches depending on
 which hardware base your phone is working.
 
-To initialize your local repository using the Candy7.1 trees, use this command:
+To initialize your local repository using the Candy7.1.2 trees, use this command:
 
 
-	repo init -u git://github.com/CandyRoms/candy.git -b c7.1.1
+	repo init -u git://github.com/CandyRoms/candy.git -b c7.1.2
 
 
 
