@@ -88,6 +88,7 @@
   <project path="system/keymaster" name="CandyRoms/system_keymaster" groups="pdk" remote="candy" />
   <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" />
   <project path="system/vold" name="CandyRoms/system_vold" remote="candy" />
+  <project path="Scripts" name="CandyRoms/Scripts" remote="candy" revision="master" />
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" />
 
   <!-- LineageOS -->
