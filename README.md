@@ -24,7 +24,7 @@ Then sync up with this command:
 
 To start your build run this command:
 
-	. build/envsetup.sh && breakfast <device> && make -j8 candy
+	. build/envsetup.sh && breakfast <device> && time brunch <device>
 
 Gerrit 
 ------
