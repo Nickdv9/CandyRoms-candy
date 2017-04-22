@@ -208,6 +208,8 @@
   <!-- Slim -->
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="slim" />
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="slim" />
+  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" groups="pdk" remote="slim" />
+  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="slim" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" groups="qcom" remote="slim" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" groups="qcom" revision="ng7.1-caf" remote="slim" />
   <project path="system/bt" name="SlimRoms/android_system_bt" groups="pdk" remote="slim" />
