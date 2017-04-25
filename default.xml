@@ -81,6 +81,7 @@
   <project path="packages/apps/OmniStyle" name="CandyRoms/packages_apps_OmniStyle" remote="candy" />
   <project path="packages/apps/OmniSwitch" name="CandyRoms/packages_apps_OmniSwitch" remote="candy" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" />
+  <project path="packages/apps/SlimLauncher" name="CandyRoms/packages_apps_SlimLauncher" remote="candy" />
   <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="CandyRoms/packages_inputmethods_LatinIME" remote="candy" />
   <project path="packages/providers/DownloadProvider" name="CandyRoms/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
@@ -214,7 +215,6 @@
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" groups="qcom" revision="ng7.1-caf" remote="slim" />
   <project path="system/bt" name="SlimRoms/android_system_bt" groups="pdk" remote="slim" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" groups="pdk-fs" remote="slim" />
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="slim" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" groups="apps_stk,pdk-fs" remote="slim" />
   <project path="vendor/qcom/opensource/bluetooth" name="SlimRoms/vendor_qcom_opensource_bluetooth" remote="slim" />
 
@@ -305,7 +305,7 @@
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" remote="aosp" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" remote="aosp" />  
+  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/guice" name="platform/external/guice" groups="pdk" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
