@@ -73,7 +73,6 @@
   <project path="packages/apps/Dialer" name="CandyRoms/packages_apps_Dialer" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" />
   <project path="packages/apps/FMRadio" name="CandyRoms/packages_apps_FMRadio" groups="pdk" remote="candy" />
-  <project path="packages/apps/ThemeInterfacer" name="CandyRoms/packages_apps_Interfacer" remote="candy" />
   <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="candy" />
   <project path="packages/apps/Messaging" name="CandyRoms/packages_apps_Messaging" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" />
@@ -205,6 +204,9 @@
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" revision="cm-14.1-caf" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="los" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" remote="los" revision="cm-14.1-caf" />
+
+  <!-- OMS -->
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
   <!-- Slim -->
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="slim" />
