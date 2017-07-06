@@ -75,7 +75,6 @@
   <project path="packages/apps/Dialer" name="CandyRoms/packages_apps_Dialer" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" />
   <project path="packages/apps/FMRadio" name="CandyRoms/packages_apps_FMRadio" groups="pdk" remote="candy" />
-  <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="candy" />
   <project path="packages/apps/Messaging" name="CandyRoms/packages_apps_Messaging" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" />
   <project path="packages/services/OmniJaws" name="CandyRoms/packages_services_OmniJaws" remote="candy" />
