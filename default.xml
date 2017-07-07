@@ -60,6 +60,7 @@
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" />
   <project path="frameworks/opt/net/wifi" name="CandyRoms/frameworks_opt_net_wifi" remote="candy" />
+  <project path="hardware/qcom/camera" name="CandyRoms/hardware_qcom_camera" remote="candy" />
   <project path="libcore" name="CandyRoms/libcore" groups="pdk" remote="candy" />
   <project path="OTA_config" name="CandyRoms/OTA_config" remote="candy" revision="master" >
     <copyfile src="ota_conf" dest="ota_conf" />
@@ -179,7 +180,6 @@
   <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" remote="los" />
   <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" remote="los" />
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" remote="los" />
-  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom" remote="los" />
   <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" />
   <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8084" remote="los" />
   <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8916" remote="los" />
