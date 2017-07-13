@@ -64,9 +64,6 @@
   <project path="hardware/qcom/keymaster" name="CandyRoms/hardware_qcom_keymaster" remote="candy" />
   <project path="libcore" name="CandyRoms/libcore" groups="pdk" remote="candy" />
   <project path="OTA_config" name="CandyRoms/OTA_config" remote="candy" revision="master" >
-  <project path="hardware/qcom/display-caf/msm8998" name="CandyRoms/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="c7-caf-8998" remote="candy" />
-  <project path="hardware/qcom/media-caf/msm8998" name="CandyRoms/android_hardware_qcom_media" groups="qcom" revision="c7-caf-8998" remote="candy" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="CandyRoms/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="c7-caf-8998" remote="candy" />
     <copyfile src="ota_conf" dest="ota_conf" />
   </project>
   <project path="packages/apps/Bluetooth" name="CandyRoms/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="candy" />
@@ -182,6 +179,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8974" remote="los" />
   <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" remote="los" />
   <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" remote="los" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="CandyRoms/hardware_qcom_audio" groups="qcom,qcom_audio" revision="c7-caf-8998" remote="candy" />
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" remote="los" />
   <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" />
   <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8084" remote="los" />
@@ -192,6 +190,7 @@
   <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8974" remote="los" />
   <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8994" remote="los" />
   <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8996" remote="los" />
+  <project path="hardware/qcom/display-caf/msm8998" name="CandyRoms/hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="c7-caf-8998" remote="candy" />
   <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="los" />
   <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="los" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="los" />
@@ -203,6 +202,7 @@
   <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8974" remote="los" />
   <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8994" remote="los" />
   <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" remote="los" />
+  <project path="hardware/qcom/media-caf/msm8998" name="CandyRoms/hardware_qcom_media" groups="qcom" revision="c7-caf-8998" remote="candy" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" />
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" revision="cm-14.1-caf" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="los" />
