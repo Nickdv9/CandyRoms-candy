@@ -64,6 +64,9 @@
   <project path="hardware/qcom/keymaster" name="CandyRoms/hardware_qcom_keymaster" remote="candy" />
   <project path="libcore" name="CandyRoms/libcore" groups="pdk" remote="candy" />
   <project path="OTA_config" name="CandyRoms/OTA_config" remote="candy" revision="master" >
+  <project path="hardware/qcom/display-caf/msm8998" name="CandyRoms/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="c7-caf-8998" remote="candy" />
+  <project path="hardware/qcom/display-caf/msm8998" name="CandyRoms/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="c7-caf-8998" remote="candy" />
+  <project path="hardware/qcom/display-caf/msm8998" name="CandyRoms/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="c7-caf-8998" remote="candy" />
     <copyfile src="ota_conf" dest="ota_conf" />
   </project>
   <project path="packages/apps/Bluetooth" name="CandyRoms/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="candy" />
