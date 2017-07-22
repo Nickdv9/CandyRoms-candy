@@ -82,6 +82,7 @@
   <project path="packages/apps/OmniSwitch" name="CandyRoms/packages_apps_OmniSwitch" remote="candy" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" />
   <project path="packages/apps/SlimLauncher" name="CandyRoms/packages_apps_SlimLauncher" remote="candy" />
+  <project path="packages/apps/SlimRecents" name="CandyRoms/packages_apps_SlimRecents" remote="candy" />
   <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="CandyRoms/packages_inputmethods_LatinIME" remote="candy" />
   <project path="packages/providers/DownloadProvider" name="CandyRoms/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
