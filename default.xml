@@ -76,6 +76,7 @@
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" />
   <project path="packages/apps/FMRadio" name="CandyRoms/packages_apps_FMRadio" groups="pdk" remote="candy" />
   <project path="packages/apps/Messaging" name="CandyRoms/packages_apps_Messaging" groups="pdk-fs" remote="candy" />
+  <project path="packages/apps/OmniClock" name="CandyRoms/packages_apps_OmniClock" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" />
   <project path="packages/services/OmniJaws" name="CandyRoms/packages_services_OmniJaws" remote="candy" />
   <project path="packages/apps/OmniStyle" name="CandyRoms/packages_apps_OmniStyle" remote="candy" />
@@ -220,7 +221,6 @@
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" groups="qcom" remote="slim" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" groups="qcom" revision="ng7.1-caf" remote="slim" />
   <project path="system/bt" name="SlimRoms/android_system_bt" groups="pdk" remote="slim" />
-  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" groups="pdk-fs" remote="slim" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" groups="apps_stk,pdk-fs" remote="slim" />
   <project path="vendor/qcom/opensource/bluetooth" name="SlimRoms/vendor_qcom_opensource_bluetooth" remote="slim" />
 
