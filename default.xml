@@ -70,6 +70,7 @@
   <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="candy" />
   <project path="packages/apps/CandyCane" name="CandyRoms/packages_apps_CandyCane" remote="candy" />
   <project path="packages/apps/CandyOTA" name="CandyRoms/packages_apps_CandyOTA" remote="candy" />
+  <project path="packages/apps/CandyWrappers" name="CandyRoms/packages_apps_CandyWrappers" remote="candy" />
   <project path="packages/apps/Contacts" name="CandyRoms/packages_apps_Contacts" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/ContactsCommon" name="CandyRoms/packages_apps_ContactsCommon" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/Dialer" name="CandyRoms/packages_apps_Dialer" groups="pdk-fs" remote="candy" />
