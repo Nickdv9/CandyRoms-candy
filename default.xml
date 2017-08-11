@@ -57,7 +57,7 @@
   <project path="device/qcom/sepolicy" name="CandyRoms/device_qcom_sepolicy" remote="candy" />
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" />
   <project path="frameworks/av" name="CandyRoms/frameworks_av" groups="pdk" remote="candy" />
-  <project path="frameworks/base" name="Nickdv9/frameworks_base" remote="github" revision="fwbase" />
+  <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" />
   <project path="frameworks/opt/net/wifi" name="CandyRoms/frameworks_opt_net_wifi" remote="candy" />
   <project path="hardware/broadcom/wlan" name="CandyRoms/hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="candy" />
