@@ -228,6 +228,10 @@
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
   <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" />
 
+  <!-- UBER Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="uberroms/aarch64-linux-android-7.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="uberroms/arm-eabi-6.x" remote="bb" />
+
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
