@@ -87,6 +87,7 @@
   <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="CandyRoms/packages_inputmethods_LatinIME" remote="candy" />
   <project path="packages/providers/DownloadProvider" name="CandyRoms/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
+  <project path="system/bt" name="CandyRoms/android_system_bt" groups="pdk" remote="candy" />
   <project path="system/core" name="CandyRoms/system_core" remote="candy" />
   <project path="system/extras" name="CandyRoms/system_extras" remote="candy" />
   <project path="system/keymaster" name="CandyRoms/system_keymaster" groups="pdk" remote="candy" />
@@ -220,7 +221,6 @@
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="slim" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" groups="qcom" remote="slim" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" groups="qcom" revision="ng7.1-caf" remote="slim" />
-  <project path="system/bt" name="SlimRoms/android_system_bt" groups="pdk" remote="slim" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" groups="apps_stk,pdk-fs" remote="slim" />
   <project path="vendor/qcom/opensource/bluetooth" name="SlimRoms/vendor_qcom_opensource_bluetooth" remote="slim" />
 
