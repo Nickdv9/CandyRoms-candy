@@ -60,6 +60,7 @@
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" />
   <project path="frameworks/opt/net/wifi" name="CandyRoms/frameworks_opt_net_wifi" remote="candy" />
+  <project path="hardware/broadcom/wlan" name="CandyRoms/hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="candy" />
   <project path="hardware/qcom/camera" name="CandyRoms/hardware_qcom_camera" remote="candy" />
   <project path="hardware/qcom/keymaster" name="CandyRoms/hardware_qcom_keymaster" remote="candy" />
   <project path="libcore" name="CandyRoms/libcore" groups="pdk" remote="candy" />
@@ -224,7 +225,6 @@
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="slim" />
   <project path="external/tremolo" name="SlimRoms/android_external_tremolo" remote="slim" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" groups="pdk" remote="slim" />
-  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="slim" />
   <project path="frameworks/minikin" name="SlimRoms/frameworks_minikin" remote="slim" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" groups="qcom" remote="slim" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" groups="qcom" revision="ng7.1-caf" remote="slim" />
