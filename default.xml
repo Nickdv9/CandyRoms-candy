@@ -217,8 +217,8 @@
   <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
   <!-- Slim -->
-  <project path="external/avc" name="SlimRoms/android_external_libavc" remote="slim" />
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="slim" />
+  <project path="external/libavc" name="SlimRoms/android_external_libavc" remote="slim" />
   <project path="external/libhevc" name="SlimRoms/android_external_libhevc" remote="slim" />
   <project path="external/sonivox" name="SlimRoms/android_external_sonivox" remote="slim" />
   <project path="external/sqlite" name="SlimRoms/android_external_sqlite" remote="slim" />
