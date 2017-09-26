@@ -124,6 +124,7 @@
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="los" />
   <project path="external/libselinux" name="LineageOS/android_external_libselinux" groups="pdk" remote="los" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" remote="los" />
+  <project path="external/libvpx" name="LineageOS/android_external_libvpx" remote="los" />
   <project path="external/google" name="LineageOS/android_external_google" remote="los" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk-fs" remote="los" />
   <project path="external/gson" name="LineageOS/android_external_gson" remote="los" />
